@@ -1,0 +1,31 @@
+# Short Version
+
+So now that you have access to the dropbox file, let's get started creating articles!
+
+If you just want to edit the articles, you can get started immediately by adding articles to the _posts folder of /class-plans, /exercises, or /pedagogy.  Just copy one of the current files, edit the relevant header information and start writing!  You can also edit the glossary by editing glossary.md.  Please also add yourself to index.md in the contributors section.  If you want to edit one of the current files, just please don't delete anything. Feel free to start discussions about rewording or re-writing over on the Blues Pedagogy Facebook group (https://www.facebook.com/groups/463798910397419).
+
+Send Paul Mandel a Facebook message or an e-mail (at paul@mand3l.com) when you've written or updated something and he'll push it live.
+
+For formatting tips, check out http://daringfireball.net/projects/markdown/syntax and http://kramdown.gettalong.org/syntax.html
+
+# Longer Version
+
+If you're feeling a little more daring, you can preview your changes as you write/edit posts.
+
+This site is shared via Dropbox and hosted via (GitHub's Pages)[http://pages.github.com/] feature.  It uses (Jekyll)[http://jekyllrb.com/] to compile the articles and templates into html and (Grunt)[http://gruntjs.com/] to compile the image, css and javascript assets.
+
+To get started, make sure you have ruby and node installed, along with their assocated package managers.
+
+https://www.ruby-lang.org/en/
+http://rubygems.org/
+http://nodejs.org/
+
+Then install Jekyll
+
+http://jekyllrb.com/
+
+Open up a terminal and, from the root directory, run `npm install` to install Grunt.
+
+At this point, you should be able to run `grunt --watch` and `jekyll serve --watch` to rebuild everything on edit.  I've had some trouble getting those two to play nice together.
+
+Any questions, e-mail paul@mand3l.com
